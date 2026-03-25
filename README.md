@@ -35,3 +35,10 @@ Visual Studio (2003-2022), Visual Studio Code
 - Jedlix developer - open api документация и песочница (2022-2024) https://developer.jedlix.com/
 - Mews connector api (2018-2019) https://docs.mews.com/connector-api
 https://github.com/MewsSystems/gitbook-connector-api
+
+## Github repositories
+GraphQL: https://github.com/tumanina/GraphQLPlayground
+Kafka: https://github.com/tumanina/KafkaPlayground
+Docker: https://github.com/tumanina/DockerPlayground
+Go: https://github.com/tumanina/WebhookReceiver, https://github.com/tumanina/GolangPlayground
+
