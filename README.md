@@ -11,25 +11,25 @@ DAL: Entity Framework (code first), Dapper и Linq.
 Опыт в анализе и оптимизации производительности на основе планов выполнения, оптимизация индексов, запросов к базе данных.
 Аналитика: сложная выборка данных с использованием T-SQL.
 ## Технологический стек:
- .NET (framework 2.0 - 4.7, core 2.2 - 3.1, .NET 5-9)
+ .NET (framework 2.0 - 4.7, core 2.2 - 3.1, .NET 5-10)
 ## Контроль версий: 
-Git (Github, Gitlab, Stash/Bitbucket, Azure Devops)
+Git (Github, Gitlab, Azure Devops)
 ## Баг-трекинг: 
 JIRA, Azure DevOps
 ## CI/CD:
 Azure Pipelines (yaml), TeamCity, Jenkins, Octopus (release)
 ## Containers:
-Docker, включая Docker compose
+Docker, включая Docker compose, Kuberenetes
 ## Unit tests:
 xUnit, NUnit
 ## Мониторинг и логи:
-logzio, Grafana, newRelic
+logz.io, Grafana, NewRelic, open telemetry, Jaeger
 ## Взаимодействие компонентов и интеграции:
 Rest api (включая public api и песочницы), grpc (protobuf), GraphQL.
 ## Брокеры сообщений:
 Azure event hubs, Kafka, RabbitMQ
 ## IDE:
-Visual Studio (2003-2022), Visual Studio Code
+Visual Studio (2003-2026), Visual Studio Code
 
 ## Public api projects:
 - Jedlix developer - open api документация и песочница (2022-2024) https://developer.jedlix.com/
@@ -37,8 +37,20 @@ Visual Studio (2003-2022), Visual Studio Code
 https://github.com/MewsSystems/gitbook-connector-api
 
 ## Github repositories
-GraphQL: https://github.com/tumanina/GraphQLPlayground
-Kafka: https://github.com/tumanina/KafkaPlayground
+
+Kafka: https://github.com/tumanina/KafkaExactOncePlayground, https://github.com/tumanina/KafkaPlayground
+
 Docker: https://github.com/tumanina/DockerPlayground
+
+RabbitMQ & MassTransit: https://github.com/tumanina/RabbitMQPlayground
+
+CQRS & EventSourcing: https://github.com/tumanina/CQRS-EventSourcingPlayground
+
+gRPC: https://github.com/tumanina/gRPCPlayground
+
+GraphQL: https://github.com/tumanina/GraphQLPlayground
+
+Redis: https://github.com/tumanina/RedisPlayground
+
 Go: https://github.com/tumanina/WebhookReceiver, https://github.com/tumanina/GolangPlayground
 
